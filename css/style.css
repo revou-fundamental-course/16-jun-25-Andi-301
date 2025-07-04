@@ -21,3 +21,19 @@
     padding: 8px;
     text-decoration: none;
 }
+.nav>a:hover{
+    background-color: #dc5f06;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+.footer-utama{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #ff0505;
+}
+.footer-utama>p{
+    color: #ffffff;
+    font-size: 14px;
+    margin: 10px;
+}
