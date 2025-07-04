@@ -68,21 +68,22 @@
                  <form>
                     <!-- Masukkan Nama -->
                     <label for="name">Nama:</label>
-                    <input type="text" id="name" name="name" class="border border-gray-300 rounded p-[8px] w-full">
+                    <input type="text" id="name-input" name="name" class="border border-gray-300 rounded p-[8px] w-full">
                     <!-- Masukkan Tanggal Lahir -->
                     <label for="birthday">Tanggal Lahir:</label>
-                    <input input type="date" id="birthday" name="birthday" class="border border-gray-300 rounded p-[8px] w-full">
+                    <input input type="date" id="birthday-input" name="birthday" class="border border-gray-300 rounded p-[8px] w-full">
                     <!-- Masukkan Jenis Kelamin -->
                     <label>Jenis Kelamin:</label>
                     <!-- pilih jenis kelamin dengan radio button -->
-                    <input type="radio" name="jenis kelamin" value="Laki-Laki"> Laki-Laki
-                    <input type="radio" name="jenis kelamin" value="Perempuan"> Perempuan
+                    <input type="radio" name="jenis kelamin" id="gender-input" value="Laki-Laki"> Laki-Laki
+                    <input type="radio" name="jenis kelamin" id="gender-input" value="Perempuan"> Perempuan
                     <!-- masukkan pesan di dalam teks area ini -->
                     <label>Komentar</label>
-                    <textarea placeholder="Pesan" id="message" class="border border-gray-300 rounded p-[8px] w-full"></textarea>
+                    <textarea placeholder="Pesan" id="message-input" class="border border-gray-300 rounded p-[8px] w-full"></textarea>
 
                     <div>
-                        <button type="submit">Submit</button>
+                        <button type="submit" class="border rounded p-[8px] bg-blue-200 text-white"
+                            onclick="validateForm();">Submit</button>
                     </div>    
                  </form>
                 <!-- Result Form -->
