@@ -11,8 +11,8 @@ function validateForm() {
         // If any input is empty, alert the user
         alert('Please enter all of your inputs!');
     } else {
-        // If all input is valid, display the current time, name, birthday, gender, and message in the result form
-        // Define the current time
+        // If all input is valid, display the current time, name, birthday, gender, and message in the result form.
+        // However, Define the current time first
         const currentTime = new Date();
         document.getElementById('result-form').innerHTML = 
         "Waktu Saat ini : " + currentTime + 
