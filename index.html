@@ -15,7 +15,6 @@
     <header class="header-utama p-[12px]">
         <!-- Header -->
         <div class="logo-utama"></div>
-
         <!-- Navigation -->
          <nav>
             <a href="#home">Home</a>
@@ -25,6 +24,7 @@
          </nav>
     </header>
     </hr>
+    <!-- Konten Utama -->
     <main>
         <!-- Banner Foto -->
         <section id ="home" class="min-h-[250px] text-center">
@@ -67,19 +67,19 @@
                 <!-- Message Form -->
                  <form>
                     <!-- Masukkan Nama -->
-                    <label for="name">Nama:</label>
-                    <input type="text" id="name-input" name="name" class="border border-gray-300 rounded p-[8px] w-full">
+                    <label for="name">Nama :</label>
+                    <input placeholder="Insert Your Name" type="text" id="name-input" name="name" class="border border-gray-300 rounded p-[8px] w-full">
                     <!-- Masukkan Tanggal Lahir -->
-                    <label for="birthday">Tanggal Lahir:</label>
-                    <input input type="date" id="birthday-input" name="birthday" class="border border-gray-300 rounded p-[8px] w-full">
+                    <label for="birthday">Tanggal Lahir :</label>
+                    <input type="date" id="birthday-input" name="birthday" class="border border-gray-300 rounded p-[8px] w-full">
                     <!-- Masukkan Jenis Kelamin -->
-                    <label>Jenis Kelamin:</label>
+                    <label>Jenis Kelamin :</label>
                     <!-- pilih jenis kelamin dengan radio button -->
                     <input type="radio" name="jenis kelamin" id="gender-input" value="Laki-Laki"> Laki-Laki
                     <input type="radio" name="jenis kelamin" id="gender-input" value="Perempuan"> Perempuan
                     <!-- masukkan pesan di dalam teks area ini -->
-                    <label>Komentar</label>
-                    <textarea placeholder="Pesan" id="message-input" class="border border-gray-300 rounded p-[8px] w-full"></textarea>
+                    <label>Pesan :</label>
+                    <textarea placeholder="Insert Your Message" id="message-input" class="border border-gray-300 rounded p-[8px] w-full"></textarea>
 
                     <div>
                         <button type="submit" class="border rounded p-[8px] bg-blue-200 text-white"
@@ -93,11 +93,11 @@
             </div>
         </section>
     </main>
-
+    </hr>
+    <!-- Bagian akhir dari konten adalah footer -->
     <footer>
         <p>&copy; 2025 Website-ku</p>
     </footer>
-
     <!-- JS External -->
     <script src="js/script.js"></script>
 </body>

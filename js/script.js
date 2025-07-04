@@ -9,9 +9,16 @@ function validateForm() {
 
     if (nameInput.value === '' || birthdayInput.value === '' || genderInput === '' || messageInput.value === '') {
         // If any input is empty, alert the user
-        alert('Please enter your name!');
+        alert('Please enter all of your inputs!');
     } else {
         // If all input is valid, display the current time, name, birthday, gender, and message in the result form
-        document.getElementById('result-form').innerHTML = nameInput.value;
+        // Define the current time
+        const currentTime = new Date();
+        document.getElementById('result-form').innerHTML = 
+        "Waktu Saat ini : " + currentTime + 
+        "<br>Nama : " + nameInput.value + 
+        "<br>Tanggal Lahir : " + birthdayInput.value + 
+        "<br>Jenis Kelamin : " + genderInput + 
+        "<br>Pesan : " + messageInput.value;
     }
 }
