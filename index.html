@@ -63,11 +63,38 @@
             <header class="py-[32px] text-center">
                 <h2>Sampaikan Pesan Kalian Di Sini, ya</h2>
             </header>
+            <div class="flex justify-between items-center px-[16px]">
+                <!-- Message Form -->
+                 <form>
+                    <!-- Masukkan Nama -->
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" class="border border-gray-300 rounded p-[8px] w-full">
+                    <!-- Masukkan Tanggal Lahir -->
+                    <label for="birthday">Tanggal Lahir:</label>
+                    <input input type="date" id="birthday" name="birthday" class="border border-gray-300 rounded p-[8px] w-full">
+                    <!-- Masukkan Jenis Kelamin -->
+                    <label>Jenis Kelamin:</label>
+                    <!-- pilih jenis kelamin dengan radio button -->
+                    <input type="radio" name="jenis kelamin" value="Laki-Laki"> Laki-Laki
+                    <input type="radio" name="jenis kelamin" value="Perempuan"> Perempuan
+                    <!-- masukkan pesan di dalam teks area ini -->
+                    <label>Komentar</label>
+                    <textarea placeholder="Pesan" id="message" class="border border-gray-300 rounded p-[8px] w-full"></textarea>
+
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>    
+                 </form>
+                <!-- Result Form -->
+                <aside class="py-[16px]">
+                    <p id="result-form"> </p>
+                </aside> 
+            </div>
         </section>
     </main>
 
     <footer>
-    
+        <p>&copy; 2025 Website-ku</p>
     </footer>
 
     <!-- JS External -->
