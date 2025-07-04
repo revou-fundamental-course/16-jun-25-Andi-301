@@ -11,7 +11,7 @@ function validateForm() {
         // If any input is empty, alert the user
         alert('Please enter your name!');
     } else {
-        // If all input is valid, display the name in the result form
+        // If all input is valid, display the current time, name, birthday, gender, and message in the result form
         document.getElementById('result-form').innerHTML = nameInput.value;
     }
 }
