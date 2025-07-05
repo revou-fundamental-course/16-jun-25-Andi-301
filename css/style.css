@@ -19,7 +19,6 @@
     color: #ffffff;
     opacity: 0;
     padding: 8px;
-    text-decoration: none;
 }
 .nav>a:hover{
     background-color: #dc5f06;
