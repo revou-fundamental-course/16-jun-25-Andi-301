@@ -33,9 +33,12 @@ nav > a:hover{
     flex-direction: row-reverse;
     justify-content: space-between;
     background-color: #ff0505;
-}tb
+}
 .footer-utama>p{
     color: #ffffff;
     font-size: 14px;
     margin: 10px;
+}
+hr{
+    border-top: 5px dotted red;
 }
