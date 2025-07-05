@@ -17,13 +17,11 @@
 .nav>a{
     text-decoration: none;
     color: #ffffff;
-    opacity: 0;
     padding: 8px;
 }
 .nav>a:hover{
-    background-color: #dc5f06;
+    color: #e4db30;
     opacity: 1;
-    transition: 0.3s ease-in-out;
 }
 .footer-utama{
     display: flex;
