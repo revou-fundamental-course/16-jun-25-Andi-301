@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ff0505;
+    background-color: #de0a0a;
 }
 .logo-utama {
     width: 50px;
@@ -11,17 +11,22 @@
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LNzPMUXxzN_FZgi8pR0VPR8vpsWsS2T30w&s);
     background-size: cover;
 }
-.nav{
+nav{
     display: flex;
 }
-.nav>a{
+nav > a{
     text-decoration: none;
-    color: #ffffff;
+    color: white;
+    opacity: 0.8;
     padding: 8px;
     border: 1px solid;
 }
+nav > a:hover{
+    background-color: lightblue;
+}
 .footer-utama{
     display: flex;
+    align-items: center;
     flex-direction: row-reverse;
     justify-content: space-between;
     background-color: #ff0505;
