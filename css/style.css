@@ -17,14 +17,15 @@ nav{
 }
 nav > a{
     text-decoration: none;
-    border: none;
+    border-radius: 85%;
+    background-color: #860707;
     color: white;
     opacity: 0.8;
     padding: 8px 8px;
     border: 1px solid;
 }
 nav > a:hover{
-    background-color: #4c1d1d;
+    background-color: #000000;
 }
 .footer-utama{
     display: flex;
